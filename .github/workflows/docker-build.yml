@@ -16,9 +16,6 @@ jobs:
       - name: Debug Secrets
         run: echo "DOCKER_USERNAME=${{ secrets.DOCKER_USERNAME }}; DOCKER_PASSWORD length=${{ secrets.DOCKER_PASSWORD != '' }}"
 
-      - name: Debug Secrets
-        run: echo "DOCKER_USERNAME=mohamedelweza; DOCKER_PASSWORD=Elweza2002!"
-
 
 
       - name: Log in to Docker Hub 
